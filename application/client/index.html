@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>URLs Shortener</title>
+  </head>
+  <body>
+    <div class="container">
+      <header>
+        <h3>Enter a long URL to shortener:</h3>
+      </header>
+      <section>
+        <textarea id="url" name="url" rows="4" cols="100" placeholder="Long URL"></textarea>
+        <p>
+          <button id="shortenBtn">Make a shortener URL</button>
+        </p>
+      </section>
+
+      <section id="originalToShortdetail"></section>
+      <hr>
+      <section>
+        <input id="shortUrl" name="shortUrl" size=100 placeholder="short URL"/>
+        <p>
+          <button id="originalBtn">get a original URL</button>
+        </p>
+      </section>
+
+      <section id="shortToOriginaldetail"></section>
+    </div>
+    <hr>
+    <div id="topUrl"></div>
+    <script src="http://code.jquery.com/jquery-2.0.3.min.js"></script>
+    <script src="/client/javascripts/app.js"></script>
+  </body>
+</html>
